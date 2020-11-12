@@ -1,0 +1,79 @@
+@font-face{
+  font-family: 'Roboto';
+  src: url('../Fonts//RobotoCondensed-Regular.ttf') format('trueType');
+}
+
+* {
+  color: white !important;
+}
+
+body {
+  margin: 0 !important;
+  background-image: url('../Photos/cosmos2.jpg');
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.planetColor {
+  color: rgb(215, 175, 166) !important;
+}
+
+.purpleBack {
+  background-color: rgba(55, 46, 54, 0.6) !important;
+}
+
+.back {
+  background-color: rgba(213, 197, 212, 0.1) !important;
+}
+
+.noBackground {
+  background: none !important;
+}
+
+.width50 {
+  width: 55vw !important;
+  float: right !important;
+}
+
+.width90p {
+  width: 95% !important;
+  margin: 0px auto !important
+}
+
+.up {
+  text-transform: uppercase !important;
+}
+
+.size-12 {
+  font-size: 1.2rem !important;
+}
+
+.size-2 {
+  font-size: 2rem !important;
+}
+
+.size-4 {
+  font-size: 4rem !important;
+}
+
+.mt-0 {
+  margin-top: 0rem !important;
+}
+
+.mb-05 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.noBorder {
+  border: none !important;
+  /* background-color: red !important; */
+ /* border-bottom: none !important; */
+ border-style: hidden !important;
+}
